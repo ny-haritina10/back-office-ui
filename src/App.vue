@@ -21,6 +21,7 @@ import Header from './components/layouts/Header.vue';
 import Sidebar from './components/layouts/Sidebar.vue';
 import Dashboard from './components/pages/Dashboard.vue';
 
+
 // Shared state lifted up to the parent
 const sidebarCollapsed = ref(false);
 
