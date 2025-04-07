@@ -167,10 +167,9 @@
 
 <script setup>
 import {
-ArrowDown // Replaced TrendDown
-, // For activity icon
+ArrowDown,
 ArrowUp,
-DollarSign, // For activity icon
+DollarSign,
 Package,
 ShoppingCart,
 Truck,

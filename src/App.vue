@@ -16,10 +16,10 @@
 
 <script setup>
 import { ref } from 'vue';
-import Dashboard from './components/Dashboard.vue';
-import Footer from './components/Footer.vue';
-import Header from './components/Header.vue';
-import Sidebar from './components/Sidebar.vue';
+import Footer from './components/layouts/Footer.vue';
+import Header from './components/layouts/Header.vue';
+import Sidebar from './components/layouts/Sidebar.vue';
+import Dashboard from './components/pages/Dashboard.vue';
 
 // Shared state lifted up to the parent
 const sidebarCollapsed = ref(false);
